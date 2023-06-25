@@ -1,5 +1,5 @@
 <template>
-    <div :class="isOpen ? 'w-20 md:w-60' : 'w-20'"
+    <div :class="isOpen ? 'w-20 md:w-80' : 'w-20'"
         class="flex flex-col px-3 duration-300 bg-primary text-white shadow relative h-full md:h-screen">
         <div>
             <div @click="isOpen = !isOpen" class="hidden md:block absolute bg-primary rounded-md px-0.5 py-2 -left-5 top-16 cursor-pointer">
