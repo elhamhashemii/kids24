@@ -1,7 +1,7 @@
 @font-face {
   font-family: Vazir;
-  src: url('./assets/font/Vazir.woff') format('woff');
-  src: url('./assets/font/Vazir-FD.woff') format('woff');
+  src: url("./assets/font/Vazir.woff") format("woff");
+  src: url("./assets/font/Vazir-FD.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -10,6 +10,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+body {
   font-family: Vazir;
+  background-color: #f9f9f9;
 }

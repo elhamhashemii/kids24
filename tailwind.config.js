@@ -11,7 +11,7 @@ export default {
       'secondary' : '#d9d9d9',
       'danger' : '#fe424d',
       'violet' : '#7562a1',
-      'bgColor' : 'f9f9f9',
+      'bgColor' : '#f9f9f9',
       'white' : '#fff',
       'dark' : '#000'
     },
