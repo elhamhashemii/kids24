@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Vazir;
+  src: url('./assets/font/Vazir.woff') format('woff');
+  src: url('./assets/font/Vazir-FD.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #329988;
+  --primaryLight: #b9e1da;
+  --secondary: #d9d9d9;
+  --danger: #fe424d;
+  --violet: #7562a1;
+  --bgColor: #f9f9f9;
+}
+
+* {
+  font-family: Vazir;
+}
