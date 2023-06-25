@@ -11,7 +11,7 @@ interface IProps {
 }
 const props = withDefaults(defineProps<IProps>(), {
     text: "defaultValue",
-    color: "violet"
+    color: "danger"
 })
 const text = computed(() => props.text)
 const color = computed(() => props.color)
